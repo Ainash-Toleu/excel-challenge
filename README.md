@@ -88,7 +88,7 @@ and the least successful campaigns were in the “Food” category with 140 fail
             
         Across the various categories, it seems that campaigns launched in the month of May had the most success. 
 
-1. What are some limitations of this dataset?
+2. What are some limitations of this dataset?
 
 When looking at the "state" column, there are 4 different types of campaigns: campaigns that were successful, failed, canceled, or is currently live. The "canceled" category raises some questions, because it is not determined why those campaigns were canceled. Would cancellation mean a failure because the campaign organizer lost determination, or perhaps a success because the organizer was able to meet their financial goals with donations outside of Kickstarter? Additional information would be needed to better analyze this data.
 
@@ -97,6 +97,49 @@ The launch and deadline dates provided were unix timestamps and not very user fr
 The category and sub-category would ideally be separated, and we wouldn't have to perform additional work to separate those using the "/" sign. The situation would have been more complex if the "/" sign wasn't used consistently to separate the categories and sub-categories. 
 
 Individual donation-level data would add a new perspective and complexity to the results, since we could then determine if the campaigns were successful because of a few individuals' large donations, or a 'team-effort' approach with most of the donations falling within a small range.
+
+3. What are some other possible tables and/or graphs that we could create?
+
+    * When analyzing campaigns by month, we could analyze the data by % of successful and failed campaigns in each month. 
+    
+    It would then be evident that the most successful launch months were May (61%) and April (60%). The worst month was December with 47% of campaigns launched failed.
+    ![Screenshot](image/Picture8.png)
+
+    * Looking at the data on relative, rather than absolute terms (Pivot_Table_3) adds additional analysis opportunities.
+    
+    Furthermore, we could analyze successful and failed campaigns by country.
+    
+    Then we would see that “Music” (for example) category had success performance not only in overall countries, but almost in all of the countries:
+    
+    IT, AT, AU, DK, SE, ES had 100% success
+    FR, CA, GB and US had overall success over 70%
+    and only DE had 50%
+    ![Screenshot](image/Picture9.png)
+
+    * Data given by year was not analyzed, were there any successful years compared to others or not? Presumably, campaign success and the overall economic conditions would correlate positively, and campaigns launched in 2009 would have less favorable outcomes than campaigns launched more recently. 
+    * In our analysis, we don’t consider the actual amount of money that was raised for the campaigns. Since the amounts were in currencies other than $USD, additional calculations to convert these amounts to $USD would have helped analyze the data from a different perspective. Additionally, we calculate, but don't analyze how many people participated in the campaigns including the average donation per person, per campaign. 
+    * Analysis could be performed on the date period between the launch and the end date of the campaign. Presumably, campaigns with longer periods of time between the launch and deadline date would have higher success rates than those with shorter dates. A longer period to allow donations would allow for more time and people to donate.
+
+### Bonus Statistical Analysis
+1.	Use your data to determine whether the mean or the median summarizes the data more meaningfully.
+
+Mean – average, take all the values, add them up and divide by the number of values we have.
+Median – this is the value in the middle, takes all the values, sort them from smallest to largest and then find the value in the middle of the list.
+
+According to Bonus Statistical Analysis table:
+* average number of backers for a successful campaign: 194.43;
+* average number of backers for a failed campaign: 17.71;
+
+* the median number of backers for a successful campaign: 62;
+* median number of backers for a failed campaign: 4
+
+By given data we can say that Median summarizes the data more meaningfully. It shows us the average of backers in all the campaigns.
+
+
+
+
+
+
 
 
 
