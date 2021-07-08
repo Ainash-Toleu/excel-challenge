@@ -76,17 +76,31 @@ and the least successful campaigns were in the “Food” category with 140 fail
     ![Screenshot](image/Picture5.png)
 
     -   looking at the most and least successful categories (“Music” and “Food”),
-    
-    I can see that for “Music”:
-    + the most successful months were January and May (54 successful campaigns each)
-    + the least successful month was October with 16 failed campaigns
-    ![Screenshot](image/Picture6.png)
+        + I can see that for “Music”:
+            + the most successful months were January and May (54 successful campaigns each)
+            + the least successful month was October with 16 failed campaigns
+            ![Screenshot](image/Picture6.png)
 
-    
-    for “Food” category:
-    + the most successful month was May, with 6 successful campaigns
-    + the least successful month was January, with 22 failed campaigns
-    ![Screenshot](image/Picture7.png)
+        + for “Food” category:
+            + the most successful month was May, with 6 successful campaigns
+            + the least successful month was January, with 22 failed campaigns
+            ![Screenshot](image/Picture7.png)
+            
+        Across the various categories, it seems that campaigns launched in the month of May had the most success. 
+
+1. What are some limitations of this dataset?
+
+When looking at the "state" column, there are 4 different types of campaigns: campaigns that were successful, failed, canceled, or is currently live. The "canceled" category raises some questions, because it is not determined why those campaigns were canceled. Would cancellation mean a failure because the campaign organizer lost determination, or perhaps a success because the organizer was able to meet their financial goals with donations outside of Kickstarter? Additional information would be needed to better analyze this data.
+
+The launch and deadline dates provided were unix timestamps and not very user friendly. Providing the dates in a standard MM/DD/YYYY format would have been more straightforward and avoid additional calculations. 
+
+The category and sub-category would ideally be separated, and we wouldn't have to perform additional work to separate those using the "/" sign. The situation would have been more complex if the "/" sign wasn't used consistently to separate the categories and sub-categories. 
+
+Individual donation-level data would add a new perspective and complexity to the results, since we could then determine if the campaigns were successful because of a few individuals' large donations, or a 'team-effort' approach with most of the donations falling within a small range.
+
+
+
+
     
 
 
