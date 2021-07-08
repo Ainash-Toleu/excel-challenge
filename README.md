@@ -41,6 +41,7 @@ and the least successful campaigns were in the “Food” category with 140 fail
         ![Screenshot](image/Picture3.png)
 
     -	by analyzing all subcategories, I can see that:
+        
         100% success in launches had subcategories: 
         + “classical music”,
         + “documentary”, 
@@ -69,6 +70,28 @@ and the least successful campaigns were in the “Food” category with 140 fail
         + “restaurants”, 
         + “video games” 
         ![Screenshot](image/Picture4.png)
+
+* Analyzing the campaigns by the month (Pivot_Table_3),
+    -   I can see that campaigns launched in the month of May had the highest count of successful campaigns during the year, at 234. The month with the highest count of failed campaigns were July (150), closely followed by January (149), and October (149).
+    ![Screenshot](image/Picture5.png)
+
+    -   looking at the most and least successful categories (“Music” and “Food”),
+    
+    I can see that for “Music”:
+    + the most successful months were January and May (54 successful campaigns each)
+    + the least successful month was October with 16 failed campaigns
+    ![Screenshot](image/Picture6.png)
+
+    
+    for “Food” category:
+    + the most successful month was May, with 6 successful campaigns
+    + the least successful month was January, with 22 failed campaigns
+    ![Screenshot](image/Picture7.png)
+    
+
+
+
+        
 
 
 
