@@ -1,7 +1,7 @@
 # Kickstarter analysis using Excel
 
 Kickstarter – is a crowdfunding service that launched more than 300,000 projects and raised over $2 billion.
-For this project, I organized and analyzed a selected database of 4,000 projects from launched campaigns on Kickstarter.
+For this project, I analyzed a selected database of 4,000 projects from launched campaigns on Kickstarter.
 ---
 
 1.	Given the provided data, what are three conclusions I can draw about Kickstarter campaigns?
@@ -111,13 +111,13 @@ Individual donation-level data would add a new perspective and complexity to the
     
     Then we would see that “Music” (for example) category had success performance not only in overall countries, but almost in all of the countries:
     
-    IT, AT, AU, DK, SE, ES had 100% success
-    FR, CA, GB and US had overall success over 70%
+    IT, AT, AU, DK, SE, ES had 100% success,
+    FR, CA, GB and US had overall success over 70%,
     and only DE had 50%
     ![Screenshot](image/Picture9.png)
 
     * Data given by year was not analyzed, were there any successful years compared to others or not? Presumably, campaign success and the overall economic conditions would correlate positively, and campaigns launched in 2009 would have less favorable outcomes than campaigns launched more recently. 
-    * In our analysis, we don’t consider the actual amount of money that was raised for the campaigns. Since the amounts were in currencies other than $USD, additional calculations to convert these amounts to $USD would have helped analyze the data from a different perspective. Additionally, we calculate, but don't analyze how many people participated in the campaigns including the average donation per person, per campaign. 
+    * In analysis, we don’t consider the actual amount of money that was raised for the campaigns. Since the amounts were in currencies other than $USD, additional calculations to convert these amounts to $USD would have helped analyze the data from a different perspective. Additionally, we calculate, but don't analyze how many people participated in the campaigns including the average donation per person, per campaign. 
     * Analysis could be performed on the date period between the launch and the end date of the campaign. Presumably, campaigns with longer periods of time between the launch and deadline date would have higher success rates than those with shorter dates. A longer period to allow donations would allow for more time and people to donate.
 
 ### Bonus Statistical Analysis
@@ -133,7 +133,7 @@ According to Bonus Statistical Analysis table:
 * the median number of backers for a successful campaign: 62;
 * median number of backers for a failed campaign: 4
 
-By given data we can say that Median summarizes the data more meaningfully. It shows us the average of backers in all the campaigns.
+By given data I can say that Median summarizes the data more meaningfully. It shows us the average of backers in all the campaigns.
 
 
 
