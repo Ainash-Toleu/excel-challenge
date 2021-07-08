@@ -6,9 +6,9 @@ For this project, I organized and analyzed a selected database of 4,000 projects
 
 1.	Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
 * From the Pivot_Table_1 tab we created, it is evident that compared to others,
-    ...“Theater”,
-    ...“Music” and
-    ...“Film & Video” 
+    - “Theater”,
+    - “Music” and
+    - “Film & Video” 
 categories had more successful launched campaigns,
 
 where the “Music” category was the most successful in all the countries one with 540 successful (120 failed) out of total 700 launches.
