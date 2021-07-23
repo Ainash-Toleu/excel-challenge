@@ -4,6 +4,8 @@ Kickstarter – is a crowdfunding service that launched more than 300,000 projec
 For this project, I analyzed a selected database of 4,000 projects from launched campaigns on Kickstarter.
 ---
 
+## Analysis performed at the end of the Project
+
 1.	Given the provided data, what are three conclusions I can draw about Kickstarter campaigns?
 * From the Pivot_Table_1 tab I created, it is evident that compared to others,
     - “Theater”,
